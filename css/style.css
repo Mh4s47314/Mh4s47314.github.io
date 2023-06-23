@@ -1,5 +1,6 @@
-body {
+. {
   background-color: rgb(255, 228, 247);
+  overflow: hidden;
 }
 
 .jumbotron {
@@ -18,5 +19,24 @@ hr {
 }
 
 section {
-  padding-top: 30px;
+  padding-top: 100px;
+}
+
+.fav {
+  background-color: rgb(245, 187, 232);
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.portfolio img {
+  width: 40vw;
+}
+
+.foot {
+  background-color: rgb(245, 187, 232);
+  padding: 40px;
 }
