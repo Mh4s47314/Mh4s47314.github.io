@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Nisrina Sayanggg</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar fixed-top" style="background-color: rgb(243, 161, 243)">
+    <nav class="navbar fixed-top shadow" style="background-color: rgb(243, 161, 243)">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
@@ -31,7 +31,7 @@
               <a class="nav-link" href="#fav">Favourites</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Album</a>
+              <a class="nav-link" href="#gallery">Album</a>
             </li>
           </ul>
         </div>
@@ -40,8 +40,8 @@
     <!-- end navbar -->
 
     <!-- jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/nisrina.jpg" alt="nisrina nayla putri" class="img-thumbnail rounded-circle" />
+    <section class="jumbotron text-center p-3">
+      <img src="img/nisrina.jpg" alt="nisrina nayla putri" class="img-thumbnail rounded-circle shadow-sm" />
       <h1 class="display-4">Nisrina Nayla Putri</h1>
       <p class="lead">Calon Pemilik Klinik Kecantikan || Aamiin</p>
     </section>
@@ -130,8 +130,8 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5BBE8" fill-opacity="1" d="M0,64L30,101.3C60,139,120,213,180,240C240,267,300,245,360,208C420,171,480,117,540,122.7C600,128,660,192,720,186.7C780,181,840,107,900,64C960,21,1020,11,1080,53.3C1140,96,1200,192,1260,197.3C1320,203,1380,117,1410,74.7L1440,32L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
     <!-- end carousel -->
 
-    <!-- porfolio -->
-    <section class="portfolio" id="portfolio">
+    <!-- gallery -->
+    <section class="gallery" id="gallery">
       <div class="row text-center mb-3">
         <div class="col">
           <h2>Nisrina's Album</h2>
@@ -139,33 +139,87 @@
         </div>
       </div>
       <div class="row mb-3 text-center">
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3">
           <img src="img/alkena.jpg" alt="alkena" class="img-thumbnail" />
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3">
           <img src="img/bk.jpg" alt="bk" class="img-thumbnail" />
         </div>  
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3">
           <img src="img/hargunas.jpg" alt="hargunas" class="img-thumbnail" />
         </div>
       </div>
       <div class="row justify-content-center text-center">
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3">
           <img src="img/ipa3.jpg" alt="ipa3" class="img-thumbnail" />
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-3">
           <img src="img/its.jpg" alt="its" class="img-thumbnail" />
         </div>
     </section>
-    <!-- end portfolio -->
+    <!-- end gallery -->
+
+    <!-- music -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5BBE8" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,128C672,139,768,213,864,213.3C960,213,1056,139,1152,122.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <section class="musicplay text-center" id="musicplay">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Song</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="parent-play ">
+          <div class="player">
+            <img src="img/logo audio.jpg" alt="lagu" class="rounded-top-0 mb-3">
+            <p>An Art gallery Could Never Be As Unique As You</p>
+            <audio src="audio/AN ART GALLERY COULD NEVER BE AS UNIQUE AS YOU - MRLD (lirik terjemahan) lagu tiktok viral (2).mp3" controls></audio>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3A1F3" fill-opacity="1" d="M0,256L10.4,261.3C20.9,267,42,277,63,261.3C83.5,245,104,203,125,186.7C146.1,171,167,181,188,165.3C208.7,149,230,107,250,122.7C271.3,139,292,213,313,202.7C333.9,192,355,96,376,85.3C396.5,75,417,149,438,181.3C459.1,213,480,203,501,213.3C521.7,224,543,256,563,272C584.3,288,605,288,626,250.7C647,213,668,139,689,128C709.6,117,730,171,751,170.7C772.2,171,793,117,814,106.7C834.8,96,856,128,877,154.7C897.4,181,918,203,939,213.3C960,224,981,224,1002,208C1022.6,192,1043,160,1064,144C1085.2,128,1106,128,1127,154.7C1147.8,181,1169,235,1190,266.7C1210.4,299,1231,309,1252,288C1273,267,1294,213,1315,197.3C1335.7,181,1357,203,1377,192C1398.3,181,1419,139,1430,117.3L1440,96L1440,0L1429.6,0C1419.1,0,1398,0,1377,0C1356.5,0,1336,0,1315,0C1293.9,0,1273,0,1252,0C1231.3,0,1210,0,1190,0C1168.7,0,1148,0,1127,0C1106.1,0,1085,0,1064,0C1043.5,0,1023,0,1002,0C980.9,0,960,0,939,0C918.3,0,897,0,877,0C855.7,0,835,0,814,0C793,0,772,0,751,0C730.4,0,710,0,689,0C667.8,0,647,0,626,0C605.2,0,584,0,563,0C542.6,0,522,0,501,0C480,0,459,0,438,0C417.4,0,397,0,376,0C354.8,0,334,0,313,0C292.2,0,271,0,250,0C229.6,0,209,0,188,0C167,0,146,0,125,0C104.3,0,83,0,63,0C41.7,0,21,0,10,0L0,0Z"></path></svg>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5BBE8" fill-opacity="1" d="M0,64L10.4,85.3C20.9,107,42,149,63,154.7C83.5,160,104,128,125,144C146.1,160,167,224,188,229.3C208.7,235,230,181,250,149.3C271.3,117,292,107,313,101.3C333.9,96,355,96,376,96C396.5,96,417,96,438,85.3C459.1,75,480,53,501,42.7C521.7,32,543,32,563,48C584.3,64,605,96,626,117.3C647,139,668,149,689,160C709.6,171,730,181,751,186.7C772.2,192,793,192,814,176C834.8,160,856,128,877,122.7C897.4,117,918,139,939,122.7C960,107,981,53,1002,64C1022.6,75,1043,149,1064,197.3C1085.2,245,1106,267,1127,266.7C1147.8,267,1169,245,1190,234.7C1210.4,224,1231,224,1252,186.7C1273,149,1294,75,1315,42.7C1335.7,11,1357,21,1377,42.7C1398.3,64,1419,96,1430,112L1440,128L1440,0L1429.6,0C1419.1,0,1398,0,1377,0C1356.5,0,1336,0,1315,0C1293.9,0,1273,0,1252,0C1231.3,0,1210,0,1190,0C1168.7,0,1148,0,1127,0C1106.1,0,1085,0,1064,0C1043.5,0,1023,0,1002,0C980.9,0,960,0,939,0C918.3,0,897,0,877,0C855.7,0,835,0,814,0C793,0,772,0,751,0C730.4,0,710,0,689,0C667.8,0,647,0,626,0C605.2,0,584,0,563,0C542.6,0,522,0,501,0C480,0,459,0,438,0C417.4,0,397,0,376,0C354.8,0,334,0,313,0C292.2,0,271,0,250,0C229.6,0,209,0,188,0C167,0,146,0,125,0C104.3,0,83,0,63,0C41.7,0,21,0,10,0L0,0Z"></path></svg>    
+    <!-- end music -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact</h2>
+          <hr />
+        </div>
+      </div>
+      <form action="">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Nama</span>
+          <input type="text" class="form-control" placeholder="Masukkan Nama" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Masukkan email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+        
+        <div class="input-group">
+          <span class="input-group-text">Saran dan Kritik</span>
+          <textarea class="form-control" aria-label="Masukkan masukan"></textarea>
+        </div>
+        <div class="d-grid gap-2 m-3">
+          <button class="btn" type="button" style="background-color: rgb(243, 161, 243);">Button</button>
+        </div>
+      </form>
+    </section>
+    <!-- end contact -->
 
     <!-- footer -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5BBE8" fill-opacity="1" d="M0,256L30,245.3C60,235,120,213,180,224C240,235,300,277,360,272C420,267,480,213,540,170.7C600,128,660,96,720,112C780,128,840,192,900,192C960,192,1020,128,1080,133.3C1140,139,1200,213,1260,229.3C1320,245,1380,203,1410,181.3L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-    <div class="foot text-center" style="background-color: rgb(245, 187, 232);">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F3A1F3" fill-opacity="1" d="M0,160L12.6,170.7C25.3,181,51,203,76,176C101.1,149,126,75,152,90.7C176.8,107,202,213,227,234.7C252.6,256,278,192,303,149.3C328.4,107,354,85,379,74.7C404.2,64,429,64,455,85.3C480,107,505,149,531,160C555.8,171,581,149,606,160C631.6,171,657,213,682,234.7C707.4,256,733,256,758,218.7C783.2,181,808,107,834,112C858.9,117,884,203,909,197.3C934.7,192,960,96,985,90.7C1010.5,85,1036,171,1061,186.7C1086.3,203,1112,149,1137,154.7C1162.1,160,1187,224,1213,240C1237.9,256,1263,224,1288,218.7C1313.7,213,1339,235,1364,234.7C1389.5,235,1415,213,1427,202.7L1440,192L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z"></path></svg>
+    <div class="foot text-center" style="background-color: rgb(243, 161, 243)">
       <h4>Full of <i class="bi bi-hearts"></i> and joy from your Papii</h4> 
     </div>
     <!-- end footer -->
-
+    <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

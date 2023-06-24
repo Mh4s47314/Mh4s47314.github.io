@@ -19,7 +19,7 @@ hr {
 }
 
 section {
-  padding-top: 100px;
+  padding: 100px 3px;
 }
 
 .fav {
@@ -30,14 +30,38 @@ section {
 .carousel-inner {
   margin: 0 auto;
   width: 80%;
+  border-radius: 30%;
+  border: 5px solid rgb(255, 228, 247);
 }
 
-.portfolio img {
+.gallery img {
   width: 50vmax;
 }
 
 .foot {
-  background-color: rgb(245, 187, 232);
+  background-color: rgb(243, 161, 243);
   padding: 40px;
   margin: 0 auto;
+}
+
+.foot i {
+  color: red;
+}
+
+.musicplay {
+  margin: auto;
+  background-color: rgb(245, 187, 232);
+}
+.parent-play {
+  width: 500px;
+  margin: 0 auto;
+}
+.musicplay img {
+  width: 500px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.musicplay .player {
+  background-color: rgb(243, 161, 243);
 }
