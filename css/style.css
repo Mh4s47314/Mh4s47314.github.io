@@ -28,10 +28,19 @@ section {
 }
 
 .carousel-inner {
-  margin: 0 auto;
-  width: 80%;
   border-radius: 30%;
   border: 5px solid rgb(255, 228, 247);
+}
+
+.karosel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.karosel-bungkus {
+  background-color: rgb(255, 228, 247);
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
 }
 
 .gallery img {
