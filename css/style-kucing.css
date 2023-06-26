@@ -4,11 +4,23 @@
   background-color: pink;
 }
 
+hr {
+  width: 30%;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.judul {
+  margin: 50px auto;
+  text-align: center;
+  justify-content: center;
+}
+
 .carousel {
   width: 80%;
   margin: 0 auto;
 }
 
-.carousel-item {
-  width: 100%;
+.carousel-item img {
+  width: 900px;
 }
