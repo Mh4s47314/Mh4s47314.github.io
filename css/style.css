@@ -79,6 +79,12 @@ section {
   border-top-right-radius: 50%;
 }
 
+.control-music {
+  margin: 20% auto;
+  justify-content: center;
+  text-align: center;
+}
+
 #progress {
   -webkit-appearance: none;
   width: 80%;
