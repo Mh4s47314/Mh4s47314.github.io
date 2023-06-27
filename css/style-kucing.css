@@ -22,8 +22,12 @@ hr {
   border: 3px solid black;
 }
 
+header {
+  height: 100vh;
+}
+
 .judul {
-  margin: 50px auto;
+  margin: 100px auto;
   text-align: center;
   justify-content: center;
   font-family: DigoryDoodles;
@@ -36,4 +40,12 @@ hr {
 
 .card-content {
   background-color: rgb(248, 163, 177);
+}
+
+.triger {
+  position: fixed;
+}
+
+.nav-wrapper img {
+  width: 10%;
 }
