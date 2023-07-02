@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+}
+
 :root {
   --mobile-width: 325px;
   --mobile-height: 670px;
@@ -131,6 +135,22 @@
 }
 .mobile-layout .preface .body {
   font-family: "Quicksand", sans-serif;
+}
+.mobile-layout .preface .body ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  margin: 5px;
+}
+.mobile-layout .preface .body ul li {
+  list-style: none;
+}
+.mobile-layout .preface .body ul li a {
+  text-decoration: none;
+  color: #807b7b;
+}
+.mobile-layout .preface .body ul li a:hover {
+  color: #fdf3f2;
 }
 .mobile-layout .preface .body p:first-child {
   margin-bottom: 15px;

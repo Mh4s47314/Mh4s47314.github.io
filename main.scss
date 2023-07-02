@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+}
+
 :root {
   --mobile-width: 325px;
   --mobile-height: 670px;
@@ -145,6 +149,24 @@
 
     .body {
       font-family: "Quicksand", sans-serif;
+
+      ul {
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+        margin: 5px;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: #807b7b;
+          }
+
+          a:hover {
+            color: #fdf3f2;
+          }
+        }
+      }
     }
 
     .body p:first-child {
