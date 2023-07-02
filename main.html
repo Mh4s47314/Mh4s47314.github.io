@@ -6,12 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body onload="startTime()">
     <div class="container">
       <div class="info">Mobile - Try tapping</div>
       <div class="mobile-layout">
         <div class="notification-header">
-          <div class="time">9:41</div>
+          <div class="time" id="time"></div>
           <div class="necessities">
             <i class="fas fa-signal"></i>
             <i class="fas fa-wifi"></i>
@@ -23,21 +23,21 @@
           <i class="fas fa-bookmark"></i>
         </div>
         <div class="book-cover">
-          <img class="book-top" src="https://raw.githubusercontent.com/atomic-variable/images-repo/e37f432405904a280858e5437ce1960753bc78a3/book-top.svg" alt="book-top" />
+          <img class="book-top" src="img/sampul.jpg" alt="book-top" />
           <img class="book-side" src="https://raw.githubusercontent.com/atomic-variable/images-repo/e37f432405904a280858e5437ce1960753bc78a3/book-side.svg" alt="book-side" />
         </div>
         <div class="preface">
           <div class="content">
             <div class="header">
-              <div class="title">The Diary of a Young Girl</div>
+              <div class="title">Cantik Itu Luka</div>
               <div class="icon">
                 <i class="fas fa-chevron-down"></i>
               </div>
             </div>
-            <div class="author">by Anne Frank</div>
+            <div class="author">by Eka Kurniawan</div>
             <div class="body">
-              <p>also known as The Diary of Anne Frank, is a book of the writings from the Dutch-language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands</p>
-              <p>Anne calls her diary "Kitty", so almost all of the letters are written to Kitty.</p>
+              <p>Novel Cantik Itu Luka becerita tentang alur hidup Dewi Ayu, pelacur cantik di zaman kolonial. Sebelum ia meninggal ia melahirkan seorang anak perempuan, yang ia beri nama cantik</p>
+              <p>Demikianlah kehidupan Si Cantik yang penuh luka. Nama yang ia emban sangat memberatkan hidupnya karena senyatanya ia berparas buruk rupa, tidak cantik rupawan sama sekali.</p>
             </div>
           </div>
         </div>
@@ -48,5 +48,25 @@
         https://saranyamk.github.io/images-repo/book-top.svg
         https://saranyamk.github.io/images-repo/book-side.svg
         -->
+
+    <script>
+      function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        m = checkTime(m);
+        document.getElementById("time").innerHTML = h + ":" + m;
+        var t = setTimeout(function () {
+          startTime();
+        }, 500);
+      }
+
+      function checkTime(i) {
+        if (i < 10) {
+          i = "0" + i;
+        } // add zero in front of numbers < 10
+        return i;
+      }
+    </script>
   </body>
 </html>

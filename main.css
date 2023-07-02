@@ -87,6 +87,8 @@
   left: 250px;
   z-index: 5;
   transform: translateZ(28.5px);
+  border: 5px solid rgb(102, 58, 58);
+  border-radius: 5px;
 }
 .mobile-layout .book-side {
   position: absolute;
@@ -132,4 +134,4 @@
 }
 .mobile-layout .preface .body p:first-child {
   margin-bottom: 15px;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
