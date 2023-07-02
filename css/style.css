@@ -27,24 +27,26 @@ section {
   margin: 0 auto;
 }
 
-.carousel-inner {
-  border-radius: 30%;
-  border: 5px solid rgb(255, 228, 247);
-}
-
 .karosel {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .karosel-bungkus {
   background-color: rgb(255, 228, 247);
-  border-top-right-radius: 30%;
-  border-top-left-radius: 30%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border: 20px solid rgb(255, 228, 247);
+  overflow: hidden;
+}
+
+.karosel-bungkus img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 .gallery img {
-  width: 50vmax;
+  width: 100%;
 }
 
 .foot {
@@ -128,6 +130,20 @@ section {
   transform: scale(1.5);
   background: #f53192;
   color: #fff;
+}
+
+.tombol {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #f53192;
+  box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 50%;
 }
 
 .contact {

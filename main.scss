@@ -6,6 +6,7 @@
 
 body {
   height: 100%;
+  overflow: hidden;
 }
 
 :root {
@@ -35,7 +36,7 @@ body {
   font-family: "Quicksand", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
-  font-size: 26px;
+  font-size: 1.2em;
   margin-top: 10px;
   color: var(--font-color);
 }
@@ -43,7 +44,7 @@ body {
 .mobile-layout {
   width: var(--mobile-width);
   height: var(--mobile-height);
-  margin: 30px 0;
+  margin: 15px 0;
   border-radius: var(--mobile-radius);
   perspective: 500px;
   overflow: hidden;
@@ -120,7 +121,7 @@ body {
 
   .preface {
     height: var(--separator-height);
-    padding: 50px;
+    padding: 30px;
     transition: var(--transition); //cubic-bezier(1,.98,.82,.98);
     background: white;
 
@@ -133,13 +134,13 @@ body {
       //font-family: 'Open Sans', sans-serif;
       font-family: "Quicksand", sans-serif;
       font-size: 26px;
-      margin-bottom: 10px;
+      margin: 10px;
     }
 
     .author {
       font-family: "Open Sans", sans-serif;
       font-style: italic;
-      margin-bottom: 20px;
+      margin-bottom: 0 20px 20px 20px;
     }
 
     .icon {
@@ -154,7 +155,7 @@ body {
         display: flex;
         padding: 0;
         justify-content: space-around;
-        margin: 5px;
+        margin: 20px 0;
         li {
           list-style: none;
           a {
