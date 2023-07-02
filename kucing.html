@@ -16,26 +16,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   </head>
   <body>
-    <div class="navbar-fixed">
-      <nav class="nav-extended">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"><img src="img/logo.png" alt="logo" /></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">Main Hall</a></li>
-            <li><a href="index.html">Nisrinaaa</a></li>
-            <li><a href="index.html">Kitchen</a></li>
-            <!-- <li><a class="waves-effect waves-light btn triger fixed" onclick="$('.tap-target').tapTarget('open')">Open tap target</a></li> -->
-          </ul>
-        </div>
-        <div class="nav-content">
-          <ul class="tabs tabs-transparent">
-            <li class="tab"><a href="#bengal">Bengal</a></li>
-            <li class="tab"><a href="#himalayan">Himalayan</a></li>
-            <li class="tab"><a href="#maine">Maine Coon</a></li>
-            <li class="tab"><a href="#ragdoll">Ragdoll</a></li>
-            <li class="tab"><a href="#sphinx">Sphinx</a></li>
-            <!-- <li>
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img src="img/logo.png" alt="logo" /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Main Hall</a></li>
+          <li><a href="index.html">Nisrinaaa</a></li>
+          <li><a href="index.html">Kitchen</a></li>
+          <!-- <li><a class="waves-effect waves-light btn triger fixed" onclick="$('.tap-target').tapTarget('open')">Open tap target</a></li> -->
+        </ul>
+      </div>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Main Hall</a></li>
+        <li><a href="index.html">Nisrinaaa</a></li>
+        <li><a href="index.html">Kitchen</a></li>
+        <li><a href="main.html">Bukuuu</a></li>
+      </ul>
+
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#bengal">Bengal</a></li>
+          <li class="tab"><a href="#himalayan">Himalayan</a></li>
+          <li class="tab"><a href="#maine">Maine Coon</a></li>
+          <li class="tab"><a href="#ragdoll">Ragdoll</a></li>
+          <li class="tab"><a href="#sphinx">Sphinx</a></li>
+          <!-- <li>
               <a id="menu" class="waves-effect waves-light btn btn-floating"><i class="material-icons">menu</i></a>
 
               <div class="tap-target" data-target="menu">
@@ -45,16 +52,9 @@
                 </div>
               </div>
             </li> -->
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">JavaScript</a></li>
-    </ul>
+        </ul>
+      </div>
+    </nav>
 
     <header>
       <div class="judul">
@@ -197,6 +197,10 @@
 
       $(document).ready(function () {
         $(".tap-target").tapTarget();
+      });
+
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
       });
     </script>
     <script src="script-kucing.js"></script>
